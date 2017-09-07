@@ -17,6 +17,6 @@ public class LoginServiceImpl implements LoginService {
 
     public boolean verify(String name, String password) {
         Admin admin = adminMapper.selectByPrimaryKey(name);
-        return true;
+        return false;
     }
 }
