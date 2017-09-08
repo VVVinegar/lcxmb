@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa245f4-dfdf-4d3b-8c90-0090694f9688" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/LCXMB/service_impl/LoginServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/LCXMB/service_impl/LoginServiceImpl.java" />
-    </list>
+    <list default="true" id="daa245f4-dfdf-4d3b-8c90-0090694f9688" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -207,8 +204,8 @@
       <file leaf-file-name="LoginServiceImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LCXMB/service_impl/LoginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1220,7 +1217,7 @@
       <workItem from="1504703826218" duration="3852000" />
       <workItem from="1504758134770" duration="2374000" />
       <workItem from="1504766158974" duration="8733000" />
-      <workItem from="1504787313103" duration="1525000" />
+      <workItem from="1504787313103" duration="2218000" />
     </task>
     <task id="LOCAL-00001" summary="build project">
       <created>1504787504063</created>
@@ -1245,7 +1242,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16735000" />
+    <option name="totallyTimeSpent" value="17428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1874,8 +1871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LCXMB/service_impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="304">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
