@@ -1,7 +1,9 @@
 package LCXMB.service_impl;
 
 import LCXMB.dao.AdminMapper;
+import LCXMB.dao.User_loginMapper;
 import LCXMB.pojo.Admin;
+import LCXMB.pojo.User_login;
 import LCXMB.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,10 +15,15 @@ import org.springframework.stereotype.Service;
 public class LoginServiceImpl implements LoginService {
 
     @Autowired
-    AdminMapper adminMapper;
+    User_loginMapper user_loginMapper;
 
     public boolean verify(String name, String password) {
-        Admin admin = adminMapper.selectByPrimaryKey(name);
-        return true;
+        User_login user_login = user_loginMapper.selectByPrimaryKey(name);
+        if(user_login != null){
+            if(user_login.getPassword() == password && user_login.getUsername() == name){
+                return true;
+            }
+        }
+        return false;
     }
 }

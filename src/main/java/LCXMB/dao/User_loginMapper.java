@@ -4,7 +4,9 @@ import LCXMB.pojo.User_login;
 import LCXMB.pojo.User_loginExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public interface User_loginMapper {
     long countByExample(User_loginExample example);
 
