@@ -9,7 +9,9 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
+      <introspection-schemas>*:lcxmb</introspection-schemas>
       <resolve-scope>lcxmb:</resolve-scope>
+      <unqualified-resolve-schemas>lcxmb:</unqualified-resolve-schemas>
     </data-source>
   </component>
 </project>
