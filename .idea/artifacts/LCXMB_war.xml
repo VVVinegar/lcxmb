@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="LCXMB:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="LCXMB.war">
-      <element id="artifact" artifact-name="LCXMB:war exploded" />
-    </root>
-  </artifact>
-</component>
